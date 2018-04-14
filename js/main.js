@@ -14,7 +14,6 @@ function dreamGet(){
     wordNum = Math.floor(Math.random() * (words.length));
     firstDream = words[wordNum];
     phraseNum = Math.floor(Math.random() * (phrases.length));
-    console.log(phraseNum);
     secondDream = phrases[phraseNum];
   /* Print dream */
     setTimeout(function(){$("#first-dream").text(firstDream + " and ")}, 351);
