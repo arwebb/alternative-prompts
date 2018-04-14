@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate writing prompts</title>
+    <!-- Custom font -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      
+      <p id="last-night" class="hidden">Last night, I dreamed <a href="JavaScript: void(0)" onClick="dreamGet()" id="about" aria-live="aggressive" aria-label="Last night, I dreamed about">about</a></p>
+      <div id="dream" class="hidden">
+        <p id="first-dream" aria-live="polite"></p>
+        <p id="second-dream" aria-live="polite"></p>
+      </div>
+    
+    
+      <footer>
+        <ul id="footer-container">
+          <li class="footer-item"><a href="JavaScript: void(0)" onClick = "options()">Options</a></li>
+          <li class="footer-item"><a href="JavaScript: void(0)" onClick = "who()">Who?</a></li>
+          <li id="name" class="footer-answer hidden"><a href="http://annierwebb.com/" target="_blank" aria-live="aggressive">Annie Rose Webb</a></li>
+          <li class="footer-answer"><a href="JavaScript: void(0)" onClick="backgroundToggle()"><span id="disable" class="hidden" aria-live="aggressive">Disable background color</span></a></li>
+        </ul>
+      </footer>
+      
+    </div>
+    
+    <!-- jQuery CDN -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<!-- TinyColor for checking background brightness -->
+  	<script type='text/javascript' src='js/tinycolor.js'></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
