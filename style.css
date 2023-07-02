@@ -1,3 +1,9 @@
+@font-face 
+{ 
+font-family: "Inconsolata";  
+src: url("/assets/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf")format("ttf"); 
+}
+
 html,
 body {
   padding: 0;
