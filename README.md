@@ -1,8 +1,8 @@
 # alternative-prompts
 
-I've been having the strangest dreams.
+Was it a vision, or a waking dream? Fled is that music: do I wake or sleep?
 
-Each click generates a random combination of phrases for writing, drawing, imagination games or no reason at all. 
+Each click generates a dream. Use for writing, drawing, imagination games or no reason at all. 
 
 I welcome pull requests that expand the dream dictionary. 
 
